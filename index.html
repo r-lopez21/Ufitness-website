@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Website U Fitness</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>U Fitness</h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">Inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Sobre U Fitness</a>
+                <a href="#educacion" onclick="seleccionar()">Educación</a>
+                <a href="#servicios" onclick="seleccionar()">Planes de Entrenamiento</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=61559105187034&mibextid=LQQJ4d"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/ufitness.pr?igsh=MWV3ZXQwNWFtNDNvcw=="><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <div class="nav-responsive" id="icono-nav" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
+                <p><span class="txtRojo">Atrévete</span> a empezar</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.WEIGHTLIFTING
+                </div>
+                <div class="opcion">
+                    02.BODYBUILDING
+                </div>
+                <div class="opcion">
+                    03.CARDIO
+                </div>
+                <div class="opcion">
+                    04.HIIT
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="images/Uf-logo.jpeg" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">CONÓCENOS</span>
+                        <h2>YOU FITNESS</h2>
+                    </div>
+                </div>
+                <p>Una vez una amiga me comentó: “Mírate desnuda en el espejo y ama cada parte de ti, hazlo todos los días”. A raíz de eso, comencé a ver la vida diferente, también mi cuerpo: veía todo lo imperfecto como perfecto. Entonces, 3 años después, como parte de mi proceso de aceptación y amor propio, surge la hermosa idea de YOU FITNESS. Por eso, en You Fitness sentirás seguridad. Además, alcanzaremos lo mejor de nosotras. Pues, a través del entrenamiento confirmaremos que somos mujeres independientes y empoderadas.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">ENTRENA</span> DIFERENTE
+                </span>
+                <h2>¡CAMBIA <span class="txtRojo">TU VIDA</span> HOY!</h2>
+            </div>
+            <div class="col2">
+                <a href="#contacto"><button>COMENZAR YA</button></a>
+            </div>
+        </div>
+    </section>
+    <!--SECCION EDUCACION-->
+   <section id="educacion" class="educacion">
+    <div class="contenedor-educacion">
+        <div class="fila">
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        02
+                    </div>
+                    <div class="info">
+                        <span class="frase">Preparación y</span>
+                        <h2>Educación</h2>
+                    </div>
+                </div>
+                <p>Cuento con la licencia de instructor de actitud física por el Departamento de Recreación y Deportes. A su vez, estoy certificada por Aerobic Training International para brindar clases de pilates en mat.</p>
+                <a href="https://www.instagram.com/reel/C-U4-pLu7qe/?igsh=MWcycTh5Z3A5djljdg==">¡Dale click y échale un vistazo a nuestro primer Bootcamp de pilates!</a>
+            </div>
+            <div class="col">
+                <img src="images/Licencia.jpeg" alt="">
+            </div>
+        </div>
+        <hr>
+    </div>
+   </section>
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="contenido-servicios">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            03
+                        </div>
+                        <div class="info">
+                            <span class="frase">PLANES DE</span>
+                            <h2>Entrenamiento</h2>
+                        </div>
+                    </div>
+                    <p>Según la necesidad y disponibilidad, podemos evaluar cuántos días a la semana sería su plan de entrenamiento. Así que, te invitamos a que les des un vistazo y te comuniques directamente con nosotros para poderte ofrecer una orientación. Recuerda, que el objetivo de You Fitness es ayudarte a empoderar más, y guiarte en todo tu proceso fitness. Mucho love, <span class="text-cursivo">Nil</span>.</p>
+                </div>
+                <div class="col">
+                    <img src="images/PullUp.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">Programa</span>Presencial</h3>
+                        <p>Si te encanta la motivación presencial y estar acompañada; este plan es para ti. Siguiendo la línea de programas 100% individualizados, You Fitness te ofrece sesiones presenciales donde estarás acompañada en tu rutina. A su vez, tendrás la oportunidad de recibir sugerencias y correcciones al instante para la mejora y aprovechamiento de tu entrenamiento.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-globe"></i>
+                        <h3><span class="txtRojo">Programa</span>Online</h3>
+                        <p>Este programa es completamente individualizado, a través de una aplicación. En ella tendrás videos explicativos, junto a la descripción de cada ejercicio. Este lo recomiendo a personas que hayan entrenado anteriormente. También es una herramienta de gran beneficio para las que desean entrenar desde el hogar o se les dificulta pautar horarios.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-person-running"></i>
+                        <h3><span class="txtRojo">Programa</span>Híbrido</h3>
+                        <p>Conoces de ejercicios, llevas tiempo entrenando y quieres tener una personal trainer. Te aseguramos que este plan te va a encantar: ¡La mezcla perfecta sí existe! You Fitness te puede ofrecer entrenamiento presencial y online, 100% individualizado. Así que, comunícate para darte una orientación a fondo.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase">ESTOY LISTA</span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="d2ca60a3-e0c1-43de-90f5-574f00190253">
+            <div class="fila">
+                <div class="col">
+                    <input type="email" placeholder="Ingrese Email" id="email">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Nombre" id="name">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="message" cols="30"
+                rows="10" placeholder="Ingrese Mensaje"></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </div>
+        </form>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i> Area Norte, PR
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-clock"></i> Lunes a Viernes
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-at"></i> youfitness.pr@gmail.com
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="info">
+            <p>2024 - <span class="textRojo">U Fitness</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=61559105187034&mibextid=LQQJ4d"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/ufitness.pr?igsh=MWV3ZXQwNWFtNDNvcw=="><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
