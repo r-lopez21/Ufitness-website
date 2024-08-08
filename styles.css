@@ -499,12 +499,21 @@ footer .info a{
         max-width: 200px;
         display: block;
         margin: auto;
+        padding: 20px auto;
     }
     .servicios .contenido-servicios .fila{
         display: block;
     }
     .servicios .contenido-servicios .fila .col{
        width: 100%;
+    }
+    .servicios .contenido-seccion .fila .col img {
+        max-width: 200px;
+        display: block;
+        margin: auto;
+    }
+    .servicios .info-servicios {
+        display: block;
     }
     .comodidades .fila{
         display: block;
