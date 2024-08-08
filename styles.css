@@ -488,6 +488,18 @@ footer .info a{
         display: block;
         margin: auto;
     }
+    .educacion .fila{
+        display: block;
+    }
+    .educacion .fila .col{
+        width: 100%;
+        margin: auto;
+    }
+    .educacion .fila .col img{
+        max-width: 200px;
+        display: block;
+        margin: auto;
+    }
     .servicios .contenido-seccion .fila{
         display: block;
     }
