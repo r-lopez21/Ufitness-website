@@ -500,10 +500,10 @@ footer .info a{
         display: block;
         margin: auto;
     }
-    .servicios .contenido-seccion .fila{
+    .servicios .contenido-servicios .fila{
         display: block;
     }
-    .servicios .contenido-seccion .fila .col{
+    .servicios .contenido-servicios .fila .col{
        width: 100%;
     }
     .comodidades .fila{
